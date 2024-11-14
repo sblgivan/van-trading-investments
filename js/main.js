@@ -64,7 +64,12 @@ function initializeImageCarousel() {
     const carousel = document.getElementById('imageCarousel');
     
     // Load images from src folder
-    const images = []; // Add your image paths here
+    const images = [
+        'src/image1.jpg',
+        'src/image2.jpg',
+        'src/image3.jpg',
+        'src/image4.jpg',
+    ]; // Add your image paths here
     
     function loadImages() {
         images.forEach(imagePath => {
