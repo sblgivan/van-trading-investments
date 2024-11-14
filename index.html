@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Van Trading Investments - Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <div class="logo-container">
+                <img src="images/logo.svg" alt="Van Trading" class="pulse-logo">
+            </div>
+            <div class="welcome-message">
+                Welcome back, <span id="username"></span>
+            </div>
+        </header>
+        
+        <div class="status-bar">
+            <div class="progress-container">
+                <div class="progress-bar" id="paymentProgress"></div>
+            </div>
+            <div class="days-remaining" id="daysRemaining"></div>
+        </div>
+        
+        <div class="image-carousel">
+            <div class="carousel-container" id="imageCarousel"></div>
+            <button class="carousel-btn prev">❮</button>
+            <button class="carousel-btn next">❯</button>
+        </div>
+        
+        <div class="description" id="description"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
